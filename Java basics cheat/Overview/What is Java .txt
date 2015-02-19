@@ -1,0 +1,22 @@
+# Java is a rogramming language that is developed by a C++ programmers and it can help you develop many staff like : 
+
+1. web application using JSB 
+2. Mobil application using android 
+3. Desktop application and many other .
+
+
+now lets say what java can't do, 
+1. making IOS mobil application .
+2. making windows phone or windows 8 application .
+
+=====================================================================
+# the principles of java 
+1. simple, object-oriented and familiar 
+2. Roubust and secure 
+3. portable 
+4. high performance 
+5. Hybird, threaded (can use multi-threading) and dynamic (can change the date type of variables at run time ) 
+
+
+
+
