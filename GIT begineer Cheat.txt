@@ -1,0 +1,60 @@
+git init [INITIALZIE A GIT REPO.]
+
+-----------------------------------------------------------------------
+# Checkout 
+git checkout -- (file_name) [UNDOING CHANGES AND STAY ON THE CURRENT BRANCH]
+git checkout (branch_name) [SWITCH BETWEEN BRANCHES]
+git checkout (SHA) -- (file_name) [CHECKOUT OLD VERISION OF THE FILE]	
+git checkout -b (branch_name) [CREATING AND SWITCHING TO THIS BRANCH AT THE SAME TIME]
+
+
+
+-----------------------------------------------------------------------
+# Log 
+git log [OUTPUT THE LOG]
+git log --oneline [USE ONE LINE FORMAT TO OUTPUT THE LOG]
+git log -p (SHA.. (file_name) [OUTPUT THE LOG OF THIS COMMIT AND SHOW WHAT HAPPEN ]
+git log --stat [SHOW THE STAT]
+git log --summary [SHOW THE SUMMRY]
+git log --format=oneline [SHOW A ONELINE OUTPUT WITH FULL SHA]
+git log --graph [GOOD WITH BRANCHES]
+
+
+
+-----------------------------------------------------------------------
+# Branches 
+git branch [SHOW THE BRANCHES AND WHICH IS THE CURRENT BRANCH I AM WORKING ON]
+git branch (branch_name) [CREATES A BRANCH]
+git branch -m (first_path) (second_path) [MOVE OR RENAME THE BRANCH]
+git branch -d (branch_to_delete) [DELETE THE BRANCH ON THE SAME MODE]
+git branch -D (branch_to_delete) [DELETE THE BRANCH ON HARD MODE]
+
+
+-----------------------------------------------------------------------
+# Diff 
+git diff [SHOW THE DIFFERENT BETWEEN WORKING FILE AND REPO.]
+git diff --color-words (file_name) [ANOTHER FORMAT TO OUTPUT THE CHANGES]
+git diff --staged/chached [GET THE DIFFERENCE BETWEEN THE WORKING DIRECTORY AND THE STAGING AREA]
+git diff (old_branch)..(new_branch) [GET THE DIFFERENCE BETWEEN THE OLD BRANCH AND THE NEW BRANCH]
+
+
+-----------------------------------------------------------------------
+# Mv 
+git mv [MOVE OR RENAME]
+
+-----------------------------------------------------------------------
+# Commit 
+git commit - m "Message" [COMMIT THE CHANGES IN THE STARGING AREA]
+git commit - am "Message" [ADDING THE CHANGES TO THE STAGING AREA AND COMMIT IT]
+git commit --amend -m "Message" [CHANGE THE LAST COMMIT MESSAGE OR IT'S CONTENT]
+
+-----------------------------------------------------------------------
+# Revert 
+git revert (SHA) [REVERSE THE CHANGES THAT WAS DONE TO THIS COMMIT]	
+
+
+
+------------------------------------------------------------------------
+#Show 
+git show Head [SHOW WHAT IS THE UPDATE ON THE LAST COMMIT]
+
