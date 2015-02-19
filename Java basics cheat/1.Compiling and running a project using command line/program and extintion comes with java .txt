@@ -1,0 +1,4 @@
+Compiler (Javac) 
+run (Java) 
+Jar (package) [it's a zip file used to package project after it's done to deliever ]
+Javadoc [it's used to make documentation of a project ]
