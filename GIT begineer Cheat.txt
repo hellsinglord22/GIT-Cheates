@@ -58,3 +58,11 @@ git revert (SHA) [REVERSE THE CHANGES THAT WAS DONE TO THIS COMMIT]
 #Show 
 git show Head [SHOW WHAT IS THE UPDATE ON THE LAST COMMIT]
 
+
+
+------------------------------------------------------------------------
+#Merge
+git merge (branch_name) [MERGE A BRANCH]
+git merge --no-ff (branch_name) [FORCE NOT TO USE FAST FORWARD MERGE]
+git merge --ff-only (branch_name) [DO MERAGE IF ONLY CAN DO FAST FORWARD MERGE]
+
